@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    display: flex;
+    margin: 0rem 2rem;
+}
+.box{
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 2rem 1rem;
+    border-radius: 3rem;
+    text-align: center;
+    cursor: pointer;
+}
+.yellow{
+    background-color: #ffea37;
+}
+.green{
+    background-color: #3edd4b;
+}
+.red{
+    background-color: #dd4b3e;
+}
+.blue{
+    background-color: #4b3edd;
+}
+.yellow:active{
+    background-color: #c2b11a;
+}
+.green:active{
+    background-color: #11951c;
+}
+.red:active{
+    background-color: #a21b0f;
+}
+.blue:active{
+    background-color: #2014aa;
+}
+.flash{
+    background-color: white;
+}
